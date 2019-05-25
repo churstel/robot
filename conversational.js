@@ -340,7 +340,7 @@ var H1Writer = (function () {
         this.progress = 0;
         this.progressTarget = 0;
         this.str = "";
-        this.strs = ["<br/><br/><br/><br/><br/>...", "<table><tr><td>nXT Marketing</td></tr><tr><td><div class='baseline'> Le futur du B2B, c'est maintenant</div></td></tr></table>"];
+        this.strs = ["...", "nXT Marketing"];
         this.step = 0;
         this.el = options.el;
         this.el.innerHTML = "";
