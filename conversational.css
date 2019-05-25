@@ -45,6 +45,8 @@
 					#conversational-form-docs .conversational-form .cf-button{
 						color:#222;border-color:#ddd;
 						transition:border-color .75s cubic-bezier(.215,.61,.355,1),color .75s cubic-bezier(.215,.61,.355,1);
+						-webkit-transition:border-color .75s cubic-bezier(.215,.61,.355,1),color .75s cubic-bezier(.215,.61,.355,1);
+						
 						background:0 0!important;
 						font-weight:900;
 						line-height:1.2
