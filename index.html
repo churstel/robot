@@ -91,6 +91,11 @@
                   min-width: 138px;
 
             }
+            .btn:hover {
+                  box-shadow: 0 10px 15px rgba(0,0,0,.29);
+                  -ms-transform: translateY(-1px);
+                  transform: translateY(-1px);
+              }
 
 		</style>
             <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/space10-community/conversational-form@0.9.90/dist/conversational-form.min.js" crossorigin></script>
@@ -128,8 +133,7 @@
 				</div>
 			</menu>
 			
-                  <div class="switch-btn" id="cf-toggle-btn" data-label="" data-label-toggled="" >
-                  <h1>Inscription</h1>
+			<div class="switch-btn" id="cf-toggle-btn" data-label="" data-label-toggled="" >
 			
 				<label class="switch" style="display:none">
 					<input type="checkbox" onclick="window.conversationalFormDocs.toggleConversation(event)">
