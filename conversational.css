@@ -23,7 +23,7 @@
 		}
 		#conversational-form-docs .conversational-form cf-chat-response.user{padding-right:48px}
 		#conversational-form-docs .conversational-form cf-chat-response.user text{
-			color:rgb(133, 133, 133);border-radius:20px 4px 20px 20px }
+			color:#555;border-radius:20px 4px 20px 20px }
 			#conversational-form-docs .conversational-form cf-chat-response.user thumb{
 				background-color:#222;
 				background-size:20px 16px;
