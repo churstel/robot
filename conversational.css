@@ -88,9 +88,9 @@
 								background-repeat: no-repeat !important;
 								background-position: 0px -65px !important;
 								background: #7abcff; /* Old browsers */
-								background: -moz-linear-gradient(45deg, #e05275 0%, #e9704d 44%, #f3953e 100%); /* FF3.6-15 */
-								background: -webkit-linear-gradient(45deg, #e05275 0%,#e9704d 44%,#f3953e 100%); /* Chrome10-25,Safari5.1-6 */
-								background: linear-gradient(45deg, #e05275 0%,#e9704d 44%,#f3953e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+								background: -moz-linear-gradient(225deg, #e05275 0%, #e9704d 44%, #f3953e 100%); /* FF3.6-15 */
+								background: -webkit-linear-gradient(225deg, #e05275 0%,#e9704d 44%,#f3953e 100%); /* Chrome10-25,Safari5.1-6 */
+								background: linear-gradient(225deg, #e05275 0%,#e9704d 44%,#f3953e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e05275', endColorstr='#f3953e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 								
 								position:absolute;left:0;top:0;z-index:51;color:#fff;height:100%;width:100%;transform:translateX(-100%);will-change:transform;transition:transform 375ms cubic-bezier(.215,.61,.355,1);padding:27px}#conversational-form-docs section[role=info] a{opacity:1}@media only screen and (min-width:769px){#conversational-form-docs section[role=info] a{will-change:opacity;transition:opacity .75s cubic-bezier(.215,.61,.355,1)}
