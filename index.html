@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		
-            <meta name="robots" content="noindex" />
+    <meta name="robots" content="noindex" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
 		<meta name="description" content="NXT Marketing est une matinée destinée aux marketers B2B qui souhaite nourrir leur vision Marketing et se préparer aujourd'hui aux enjeux de demain." />
@@ -30,7 +30,7 @@
             <meta property="og:type" content="website" />
             <meta property="og:description" content="NXT Marketing est une matinée destinée aux marketers B2B qui souhaite nourrir leur vision Marketing et se préparer aujourd'hui aux enjeux de demain." />
 
-            <link rel="stylesheet" href="conversational.css?KJ">
+            <link rel="stylesheet" href="conversational.css?">
 		
 		
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -180,28 +180,18 @@
 			<section id="form" role="form">
 
 				<form id="cf-form" cf-form >
+
+            
+            <label for="feel">How do you feel</label>
+            
+            <input cf-questions="And what do you do?" type="radio" name="feel" cf-label="Good" />
+            <input type="radio" name="feel" cf-label="Average" />
+            <input type="radio" name="feel" cf-label="Bad" />
                                     <fieldset>
                                                 <label for="name">What's your name?</label>
                                                 <input required cf-questions="Bonjour ! comment dois-je vous appeler? 😊" type="text" class="form-control" name="name" id="name" />
 
-                                                <div class="radio">
-                                                  <label>
-                                                          <input type="radio" name="occupation" id="occupation-2" value="designer">
-                                                            Designer
-                                                        </label>
-                                                </div>
-                                                <div class="radio">
-                                                  <label>
-                                                    <input type="radio" name="occupation" id="occupation-3" value="curious-mind">
-                                                            Curious mind
-                                                        </label>
-                                                </div>
-                                                <div class="radio">
-                                                  <label>
-                                                            <input type="radio" name="occupation" id="occupation-2" value="lost">
-                                                            Lost cause
-                                                        </label>
-                                                </div>
+                                                
 
                                               </fieldset>
                                             

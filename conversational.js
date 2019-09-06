@@ -183,8 +183,8 @@ var ConversationalFormDocs = (function () {
             _this.h1writer.start();
             _this.introTimer = setTimeout(function () {
                 _this.toggleConversation();
-            }, 3000);
-        }, 1000);
+            }, 0);
+        }, 0);
     };
     /**
     * @name introFlow2
@@ -193,6 +193,7 @@ var ConversationalFormDocs = (function () {
     ConversationalFormDocs.prototype.introFlow2 = function () {
         var _this = this;
         this.h1writer.start();
+        console.log("2");
         this.introTimer = setTimeout(function () {
             document.getElementById("info").classList.add('show');
             _this.introTimer = setTimeout(function () {
@@ -201,8 +202,8 @@ var ConversationalFormDocs = (function () {
                 _this.introTimer = setTimeout(function () {
                     _this.toggleConversation();
                 }, 0);
-            }, 1500);
-        }, 1000);
+            }, 0);
+        }, 0);
     };
     ConversationalFormDocs.prototype.toggleMenuState = function () {
         var open = this.el.classList.toggle('menu-toggle', !this.el.classList.contains('menu-toggle'));
@@ -221,7 +222,7 @@ var ConversationalFormDocs = (function () {
 
     ConversationalFormDocs.prototype.toggleConversation = function () {
         var _this = this;
-        clearTimeout(this.introTimer);
+        //clearTimeout(this.introTimer);
         if (!this.el.classList.contains('cf-toggle')) {
             if (!this.cf) {
                 this.cf = new window.cf.ConversationalForm({
@@ -268,7 +269,7 @@ var ConversationalFormDocs = (function () {
 
                         if(dto.text.indexOf("Linkedin") != -1){ 
                             
-                            IN.User.authorize(onLinkedInLoad);
+                            //IN.User.authorize(onLinkedInLoad);
 
 
                             
@@ -316,10 +317,10 @@ var ConversationalFormDocs = (function () {
             }
             if (this.cf.focus)
                 this.cf.focus();
-            setTimeout(function () {
+            
                 _this.el.classList.remove('menu-toggle');
                 _this.el.classList.add('cf-toggle');
-            }, 1);
+            
         }
         else {
             this.el.classList.remove('cf-toggle');
@@ -370,7 +371,7 @@ var H1Writer = (function () {
             if (this.step < 1) {
                 setTimeout(function () {
                     _this.nextStep();
-                }, 100);
+                }, 0);
             }
         }
         else

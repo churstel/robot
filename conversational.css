@@ -171,7 +171,7 @@
 
 								:root {
 									--anim-easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-									--cf-anim-time: 0.75s;
+									--cf-anim-time: 0.0s;
 									--cf-breakpoint-1: 769px;
 									--cf-color-green: #1ed97b;
 									--cf-font-weight-bold: 900;
